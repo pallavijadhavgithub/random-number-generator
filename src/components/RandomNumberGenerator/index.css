@@ -1,0 +1,74 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+
+/* .bg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} */
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.middle-container {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 36px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+@media screen and (min-width: 768px) {
+  .middle-container {
+    width: 35%;
+    max-width: 500px;
+  }
+}
+.heading {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 25px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 17px;
+  text-align: center;
+  color: #333333;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  /* width: 120px; */
+  border-radius: 12px;
+
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  border-width: 0;
+  cursor: pointer;
+  outline: none;
+}
+.count-number {
+  color: #0b69ff;
+  font-size: 35px;
+  font-weight: bold;
+}
